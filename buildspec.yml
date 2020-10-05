@@ -34,3 +34,6 @@ phases:
       - jacoco.xml
     file-format: 'JaCoCoXml'
     base-directory: 'target/site/jacoco'
+    cache:
+  paths:
+    - '/root/.m2/**/*'
